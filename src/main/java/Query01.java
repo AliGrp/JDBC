@@ -13,6 +13,7 @@ public class Query01 {
         //3) Statement
         Statement st =con.createStatement();
 
+        //4)Data alma
         ResultSet veri = st.executeQuery("select * from ogrenciler");
         //System.out.println(veri);
 
