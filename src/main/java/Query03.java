@@ -23,6 +23,9 @@ public class Query03 {
         }
 
 
+        con.close();
+        st.close();
+        veri.close();
 
     }
 }

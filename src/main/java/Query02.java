@@ -33,6 +33,9 @@ public class Query02 {
             System.out.println(veri1.getString(1) + veri1.getString(2));
         }
 
+        con.close();
+        st.close();
+        veri.close();
 
     }
 }
