@@ -16,7 +16,8 @@
       <console name="JDBC" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler
 select * from countries
 select * from urunler
-select * from doktors]]></console>
+select * from doktors
+select * from room]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
