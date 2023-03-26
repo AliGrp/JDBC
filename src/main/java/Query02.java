@@ -30,7 +30,8 @@ public class Query02 {
         ResultSet veri1 = st.executeQuery(sql02);
 
         while (veri1.next()){
-            System.out.println(veri1.getString(1) + veri1.getString(2));
+            System.out.println(veri1.getString(1) +
+                                veri1.getString(2));
         }
 
         con.close();

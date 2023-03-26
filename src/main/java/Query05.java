@@ -17,8 +17,10 @@ public class Query05 {
         System.out.println(" 3.Sutunun Ismi"+rmsd.getColumnName(3));
         System.out.println(" 4.Sutunun Ismi"+rmsd.getColumnName(4));
 
-        System.out.println("Tablo Ismi"+rmsd.getTableName(4));
+        System.out.println("Tablo Ismi"+rmsd.getTableName(1));
 
-        System.out.println(rmsd.getColumnTypeName(1));
+        System.out.println(rmsd.getColumnTypeName(2));
+
+
     }
 }
